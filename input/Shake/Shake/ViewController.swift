@@ -24,29 +24,28 @@ class ViewController: UIViewController {
     
 // BEGIN shaking
 // BEGIN motion_methods
-override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent) {
+override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
         
     // Show a label when shaking begins
-    self.shakingLabel.hidden = false
+    self.shakingLabel.isHidden = false
 }
     
-override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent) {
+override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         
     // Hide the label 1 second after shaking ends
-    var delayInSeconds : Float = 1.0
+    var delayInSeconds : Double = 1.0
         
-    var popTime = dispatch_time(DISPATCH_TIME_NOW,
-        (Int64)(delayInSeconds * Float(NSEC_PER_SEC)))
+    var popTime = DispatchTime.now() + delayInSeconds
         
-    dispatch_after(popTime, dispatch_get_main_queue()) {
-        self.shakingLabel.hidden = true
-    }
+    DispatchQueue.main.asyncAfter(deadline: popTime, execute: {
+        self.shakingLabel.isHidden = true
+    })
 }
 // END motion_methods
 
     
 // BEGIN responder
-override func canBecomeFirstResponder() -> Bool {
+override func becomeFirstResponder() -> Bool {
     return true
 }
 // END responder

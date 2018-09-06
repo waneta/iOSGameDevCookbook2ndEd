@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         let rotationGesture = UIPinchGestureRecognizer(target: self,
             action: "pinched:")
         
-        self.scalingView.userInteractionEnabled = true
+        self.scalingView.isUserInteractionEnabled = true
         self.scalingView.addGestureRecognizer(rotationGesture)
         
         self.scalingStatusLabel?.text = "\(self.scale)x"
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         
         switch pinchGesture.state {
             
-        case .Changed:
+        case .changed:
             self.scale *= Float(pinchGesture.scale)
             
             // BEGIN reset
@@ -44,8 +44,8 @@ class ViewController: UIViewController {
             // END reset
             
             self.scalingView.transform =
-                CGAffineTransformMakeScale(CGFloat(self.scale),
-                                           CGFloat(self.scale))
+                CGAffineTransform(scaleX: CGFloat(self.scale),
+                                  y: CGFloat(self.scale))
             
         default: () // do nothing
             

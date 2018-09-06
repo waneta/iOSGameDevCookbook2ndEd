@@ -11,12 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    @IBAction func tapped(tap: UITapGestureRecognizer) {
-        if tap.state == UIGestureRecognizerState.Ended {
-            println("Tapped!")
+    @IBAction func tapped(_ tap: UITapGestureRecognizer) {
+        if tap.state == UIGestureRecognizerState.ended {
+            print("Tapped!")
         }
     }
+
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

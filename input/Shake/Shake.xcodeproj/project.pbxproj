@@ -161,6 +161,7 @@
 				TargetAttributes = {
 					686715001A7F1BEA008D00BE = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2A9JDN3KLK;
 					};
 					686715151A7F1BEA008D00BE = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -336,9 +337,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A9JDN3KLK;
 				INFOPLIST_FILE = Shake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -346,9 +349,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A9JDN3KLK;
 				INFOPLIST_FILE = Shake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -405,6 +410,7 @@
 				686715221A7F1BEA008D00BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		686715231A7F1BEA008D00BE /* Build configuration list for PBXNativeTarget "ShakeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +419,7 @@
 				686715251A7F1BEA008D00BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

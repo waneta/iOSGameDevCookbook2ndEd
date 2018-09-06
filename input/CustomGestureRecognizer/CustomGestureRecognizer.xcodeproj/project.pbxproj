@@ -166,6 +166,7 @@
 				TargetAttributes = {
 					68C3516F1A68D3860071E283 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2A9JDN3KLK;
 					};
 					68C351841A68D3860071E283 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -342,10 +343,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A9JDN3KLK;
 				INFOPLIST_FILE = CustomGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = CustomGestureRecognizer/Bridging.h;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -353,10 +356,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A9JDN3KLK;
 				INFOPLIST_FILE = CustomGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = CustomGestureRecognizer/Bridging.h;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -413,6 +418,7 @@
 				68C351911A68D3860071E283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68C351921A68D3860071E283 /* Build configuration list for PBXNativeTarget "CustomGestureRecognizerTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +427,7 @@
 				68C351941A68D3860071E283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

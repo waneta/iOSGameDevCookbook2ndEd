@@ -161,6 +161,7 @@
 				TargetAttributes = {
 					68C351411A68CF6D0071E283 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2A9JDN3KLK;
 					};
 					68C351561A68CF6D0071E283 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -336,9 +337,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A9JDN3KLK;
 				INFOPLIST_FILE = Pinching/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -346,9 +349,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A9JDN3KLK;
 				INFOPLIST_FILE = Pinching/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -405,6 +410,7 @@
 				68C351631A68CF6D0071E283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68C351641A68CF6D0071E283 /* Build configuration list for PBXNativeTarget "PinchingTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +419,7 @@
 				68C351661A68CF6D0071E283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -339,6 +339,7 @@
 				INFOPLIST_FILE = Tilting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -349,6 +350,7 @@
 				INFOPLIST_FILE = Tilting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -405,6 +407,7 @@
 				686715501A7F2366008D00BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		686715511A7F2366008D00BE /* Build configuration list for PBXNativeTarget "TiltingTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +416,7 @@
 				686715531A7F2366008D00BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
